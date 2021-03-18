@@ -13,12 +13,12 @@ a mtg unpack simulator
 $ python simulator.py [-h] -v VERSION -t TIMES [-n PACK_NUM]
 ```
 optional arguments:
-  -h, --help              show this help message and exit
-  -v VERSION, --version   VERSION
+  - -h, --help              show this help message and exit
+  - -v VERSION, --version   VERSION
                           Version of pack
-  -t TIMES, --times       TIMES
+  - -t TIMES, --times       TIMES
                           times for simulates
-  -n PACK_NUM, --pack_num PACK_NUM
+  - -n PACK_NUM, --pack_num PACK_NUM
                           packs number in each box, default is 36 
 ## sample
 
