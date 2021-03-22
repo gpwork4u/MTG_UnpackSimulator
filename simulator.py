@@ -8,7 +8,7 @@ import sys
 
 
 def get_pack(card_list):
-    if random.randint(0, 6) < 5:
+    if random.randint(0, 5) < 5:
         rare_slot = list(np.random.choice(card_list['Rare'], 1))
     else:
         rare_slot = list(np.random.choice(card_list['Mythic'], 1))
